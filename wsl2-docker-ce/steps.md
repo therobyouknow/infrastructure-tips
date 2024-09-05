@@ -25,6 +25,17 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+## running composer on local machine
+
+sudo apt-get install php-xml
+
+sudo apt-get install php-gd
+
+sudo apt-get install zip unzip php-zip
+
+
+
+
 
 
 ## Troubleshooting
@@ -92,6 +103,14 @@ Verify that you can run docker commands without sudo.
 ```
  docker run hello-world
 ```
+
+#### Https not working?
+
+Try these:
+
+https://github.com/ddev/ddev/issues/5026#issuecomment-1609037437
+
+https://stackoverflow.com/questions/65111024/ddev-project-starts-up-site-with-http-instead-of-https
 
 ### Other research
 
